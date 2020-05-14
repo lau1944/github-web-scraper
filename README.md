@@ -16,7 +16,9 @@ Open the default URL on browser
 ## Path 
 
 ### Trending
- **/github/trend**
+ ** - [/github/trend] : Retrieve trending open source projects from github **
+ 
+ 
  Sample json format:
  ``` python
  "detail": [
