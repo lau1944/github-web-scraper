@@ -6,7 +6,7 @@ from flask import jsonify
 import json
 from Github import Github
 
-URL = 'https://github.com/trending'
+URL = 'https://github.com/'
 app = flask.Flask(__name__)
 app.config["DEBUG"] = True
 
@@ -16,7 +16,7 @@ app.config["DEBUG"] = True
 def scrap() :
     #user = request.args.get('user')
     list = []
-    page = requests.get(URL)
+    page = requests.get(URL+'trending')
     soup = BeautifulSoup(page.content, 'html.parser')
     info = soup.find_all(class_='Box-row')
     for item in info :
