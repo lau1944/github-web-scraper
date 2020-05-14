@@ -8,8 +8,10 @@ pip install beautifulsoup4
 ```
 
 ## Run
-open console, type **python scraper.py**
-
+open console, type 
+```
+python scraper.py
+```
 Open the default URL on browser 
 
 
