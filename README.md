@@ -23,7 +23,7 @@ get trending open source project
 @GET  /github/trend
 ```
  
- results:
+ each result in projects:
  ``` python
  "detail": [
         "Animation of the SHA-256 hash function in your terminal."
