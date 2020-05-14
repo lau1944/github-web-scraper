@@ -1,4 +1,4 @@
-# github-web-scraper
+
 A Github Web Scraper Rest Api Using Flask
 
 ## Installation
@@ -15,8 +15,8 @@ Open the default URL on browser
 
 ## Path 
 
-### Trending
- ** - [/github/trend] : Retrieve trending open source projects from github **
+### Trending [/github/trend]
+  Retrieve trending open source projects from github **
  
  
  Sample json format:
