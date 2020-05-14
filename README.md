@@ -1,16 +1,24 @@
 # github-web-scraper
 A Github Web Scraper Rest Api Using Flask
 
+## Installation
+```
+pip install flask
+pip install beautifulsoup4
+```
+
 ## Run
 open console, type **python scraper.py**
 
 Open the default URL on browser 
 
 
-## Path (get trending project)
+## Path 
 
+### Trending
  **/github/trend**
  Sample json format:
+ ``` python
  "detail": [
         "Animation of the SHA-256 hash function in your terminal."
       ], 
@@ -28,6 +36,6 @@ Open the default URL on browser
         "in3rsha/sha256-animation"
       ]
     }, 
-    
+```
 ## What's Next 
 Looking for someone to continue the work , obviously there are more github page to scrap, to be continue...
