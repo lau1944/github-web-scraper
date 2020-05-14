@@ -15,11 +15,11 @@ Open the default URL on browser
 
 ## Path 
 
-### Trending [/github/trend]
-  Retrieve trending open source projects from github **
+### Trending  [-/github/trend]
+  **Retrieve trending open source projects from github**
  
  
- Sample json format:
+ results:
  ``` python
  "detail": [
         "Animation of the SHA-256 hash function in your terminal."
