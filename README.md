@@ -7,7 +7,7 @@ open console, type **python scraper.py**
 Open the default URL on browser 
 
 
-##Path (get trending project)
+## Path (get trending project)
 
  **/github/trend**
  Sample json format:
