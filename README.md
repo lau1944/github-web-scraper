@@ -17,9 +17,11 @@ Open the default URL on browser
 
 ## Path 
 
-### Trending  [-/github/trend]
-  **Retrieve trending open source projects from github**
- 
+### Trending  
+get trending open source project
+```http
+@GET  /github/trend
+```
  
  results:
  ``` python
