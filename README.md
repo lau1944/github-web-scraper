@@ -2,9 +2,9 @@
 A Github Web Scraper Rest Api Using Flask
 
 
-
-**First Thing First, Star The Project if you want to see the following update !**
-
+```diff
++ First Thing First, Star The Project if you want to see the following update !
+```
 ## Installation
 ```
 pip install flask
