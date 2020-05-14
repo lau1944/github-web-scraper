@@ -4,30 +4,13 @@ import flask
 from flask import request
 from flask import jsonify
 import json
-from flask_json import FlaskJSON, JsonError, json_response, as_json
+from Github import Github
 
 URL = 'https://github.com/trending'
 app = flask.Flask(__name__)
-FlaskJSON(app)
 app.config["DEBUG"] = True
 
-class Github :
-    def __init__(self,title,githublink,detail,language,star,folk):
-        self.title=title,
-        self.githublink=githublink,
-        self.detail=detail,
-        self.language=language,
-        self.star=star,
-        self.folk=folk
-    def reponseJson(self) :
-        return {
-            'title' : self.title,
-            'link' : self.githublink,
-            'detail' : self.detail,
-            'language' : self.language,
-            'star' : self.star,
-            'folk' : self.folk
-        }
+
 
 @app.route('/github/trend', methods=['GET'])
 def scrap() :
