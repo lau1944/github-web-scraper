@@ -47,5 +47,4 @@ get trending open source project
       ]
     }, 
 ```
-## What's Next 
-Looking for someone to continue the work , obviously there are more github page to scrap, to be continue...
+Obviously there are more github page to scrap, to be continue...
